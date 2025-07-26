@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- White Circle Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Hardware Tools Icon -->
+    <group
+        android:translateX="60"
+        android:translateY="60">
+
+        <!-- Hammer -->
+        <path
+            android:fillColor="#3B82F6"
+            android:pathData="M-15,-20 L-5,-20 L-5,-10 L5,-10 L5,0 L-5,0 L-5,20 L-15,20 Z" />
+
+        <!-- Wrench -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M5,-15 L15,-15 L15,-5 L25,-5 L25,5 L15,5 L15,15 L5,15 Z" />
+
+        <!-- Screwdriver -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M-25,-10 L-20,-10 L-20,15 L-25,15 Z" />
+    </group>
+
+    <!-- App Name Text -->
+    <text
+        android:text="DJ"
+        android:textSize="24sp"
+        android:textColor="#3B82F6"
+        android:fontFamily="sans-serif-medium"
+        android:x="60"
+        android:y="75"
+        android:gravity="center" />
+</vector>
